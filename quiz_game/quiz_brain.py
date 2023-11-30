@@ -18,7 +18,7 @@ class QuizBrain:
             print("You got it right")
             self.score += 1
         else:
-            ("That's wrong.")
+            print("That's wrong.")
         print(f"Te correct answer was : {correct_answer}. ")
         print(f"Your current score is: {self.score}/{self.question_number}")
         print("\n")

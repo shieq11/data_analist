@@ -27,10 +27,10 @@ tim.hideturtle()
 tim.setheading(225)
 tim.forward(300)
 tim.setheading(0)
-nuumber_of_dots = 100
+number_of_dots = 100
 
 
-for dot_count in range(1, nuumber_of_dots + 1):
+for dot_count in range(1, number_of_dots + 1):
     tim.dot(20, random.choice(color_list))
     tim.forward(50)
 
